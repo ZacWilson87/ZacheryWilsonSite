@@ -40,6 +40,7 @@ a {
   background: rgb(131, 131, 131);
   font-size: 30px;
   font-family: "Oswald", sans-serif;
+
   border-radius: 10px;
   padding: 0;
 
@@ -58,6 +59,16 @@ a {
 .textBody {
   height: 5000px;
   text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 76%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 footer {
