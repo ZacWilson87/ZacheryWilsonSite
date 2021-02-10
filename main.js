@@ -18,7 +18,7 @@ function nameSlicer() {
                         nameSlicer(nameToShorten[0]);
 
                 }
-        }, 800);
+        }, 700);
 }
 
 nameSlicer();
